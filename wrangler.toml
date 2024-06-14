@@ -7,6 +7,7 @@ minify = true
 
 [vars]
 CORS = "https://id.mxs.app"
+ROOT = "https://logto-oauth-profile-mapper.t2v.workers.dev"
 
 [placement]
 mode = "smart"

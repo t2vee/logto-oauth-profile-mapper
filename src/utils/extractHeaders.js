@@ -1,5 +1,5 @@
 // Copyright (c) 2024 t2vee. All rights reserved.
-// Use of this source code is governed by an MPL license. 
+// Use of this source code is governed by an MPL license.
 
 
 /**
@@ -15,7 +15,7 @@ export default function extractBearerTokenFromHeaders(headers) {
 		throw { message: 'Authorization header missing - ERR 3467', status: 401 };
 	}
 	if (!authorization.startsWith('Bearer ')) {
-		throw { message: 'Authorization token type not supported', status: 401 };
+		throw { message: 'Authorization token type not supported - ERR 45783', status: 401 };
 	}
 	return authorization.slice('Bearer '.length);
 }
