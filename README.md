@@ -1,6 +1,6 @@
-set vars in wrangler.toml
-deploy with `wrangler deploy`
-set endpoints in logto:
+set vars in wrangler.toml<br/>
+deploy with `wrangler deploy`<br/>
+set endpoints in logto:<br/>
 
 
 ## spotify
